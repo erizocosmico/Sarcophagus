@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import os
+
+filename = os.path.dirname(os.path.abspath(__file__)) + '/sarcophagus.py'
+log_file = os.path.dirname(os.path.abspath(__file__)) + '/sarcophagus.log'
+os.system("nohup python %s > %s" % (filename, log_file))
