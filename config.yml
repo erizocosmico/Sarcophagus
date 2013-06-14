@@ -1,8 +1,6 @@
-trigger: time_amount
-time_amount: 300
-backups_dir: /Users/Mik3/sarcophagus/backups
+trigger: hourly
+backups_dir: /path/to/your/backups/dir
 backup_hidden_files: false
 files:
-- /Users/Mik3/sarcophagus/Flygon
-- /Users/Mik3/sarcophagus/test
-- /Users/Mik3/sarcophagus/brubru.txt
+- /path/to/your/dir
+- /path/to/your/file.ext
