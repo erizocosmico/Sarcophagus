@@ -4,4 +4,4 @@ import os
 
 filename = os.path.dirname(os.path.abspath(__file__)) + '/sarcophagus.py'
 log_file = os.path.dirname(os.path.abspath(__file__)) + '/sarcophagus.log'
-os.system("nohup python %s > %s" % (filename, log_file))
+os.system("sudo nohup python %s > %s" % (filename, log_file))
